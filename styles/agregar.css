@@ -1,0 +1,134 @@
+.agregar{
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.title-agregar{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container input{
+    border-radius: 20px;
+    border-color: rgb(46, 125, 227);
+    color: rgb(46, 125, 227) ;
+    padding: 0 10px;
+    width: 250px;
+    height: 40px;
+
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-submit{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: darkblue;
+    height: 35px;
+    width: 130px;
+}
+
+.button-submit:hover{
+    box-shadow: -5px 5px 5.8px 0 #9d9d9d9d;
+}
+
+.button-clear{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: darkblue;
+    color: darkblue;
+    background-color: inherit;
+    height: 35px;
+    width: 130px;
+}
+
+.button-clear:hover{
+    box-shadow: -5px 5px 5.8px 0 #9d9d9d9d;
+}
+
+@media(max-width:360px){
+    .agregar{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin: 80px 0 0 0;
+       padding: 0 25px 0 0;
+    }
+
+    .form-container{
+        justify-content: center;
+        width: 100%;
+    }
+   
+    .form-container input{
+        width: 86%;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .button-container{
+        width: 95%;
+        gap: 20px;
+    }
+}
+
+
+
+@media(max-width:768px){
+    .agregar{
+        margin: 80px 0px 0 0px;
+        padding: 0 px;
+     }
+ 
+     .form-container{
+         width: 100%;
+
+     }
+    
+     .form-container input{
+         width: 95%;
+         margin: 10px 0px 10px 20px;
+         padding: 0;
+     }
+ 
+     .button-container{
+        margin: 10px 20px;
+        padding: 0;
+     }
+
+     .button-submit{
+        width: 300px;
+        margin-right: 15px;
+     }
+
+     .button-clear{
+        width: 300px;
+     }
+    
+} 

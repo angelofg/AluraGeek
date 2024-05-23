@@ -1,0 +1,42 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    background: #5D04D9;
+}
+
+.dev-title {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.dev-subtitle{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-container img{
+    width: 400px;
+}
+
+@media(max-width:360px){
+    .footer-container img{
+        width: 300px;
+    }
+
+    .dev-title{
+        font-size: 14px;
+    }
+
+    .dev-subtitle{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "9caa",
+      "nombre": "blippi",
+      "precio": "25",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+    },
+    {
+      "id": "fa63",
+      "nombre": "black",
+      "precio": "26",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+    },
+    {
+      "id": "f4a9",
+      "nombre": "gekjlkj",
+      "precio": "30",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+    },
+    {
+      "id": "9350",
+      "nombre": "gekjlkj",
+      "precio": "30",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+    },
+    {
+      "id": "7838",
+      "nombre": "gekjlkj",
+      "precio": "30",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+    },
+    {
+      "id": "9aa9",
+      "nombre": "gekjlkj",
+      "precio": "30",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+    },
+    {
+      "id": "7037",
+      "nombre": "alura",
+      "precio": "35",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+    },
+    {
+      "id": "c12b",
+      "nombre": "gambito",
+      "precio": "85",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
+    },
+    {
+      "id": "b7fb",
+      "nombre": "api",
+      "precio": "36",
+      "imagen": "https://apiaddicts-web.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/08/12143604/istockphoto-1317706831-612x612-1.jpg"
+    },
+    {
+      "id": "eee7",
+      "nombre": "black",
+      "precio": "52",
+      "imagen": "https://apiaddicts-web.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/09/06152519/1_25Kh3ilJMH0oyPPITmB8lA.png"
+    }
+  ]
+}
