@@ -1,5 +1,4 @@
 //import { servicesProducts } from "../services/product-services.js";
-import { servicesProducts } from "https://alura-geek-plum.vercel.app/services/product-services.js";
 
 const productContainer = document.querySelector("[data-product]");
 const form = document.querySelector("[data-form]");
