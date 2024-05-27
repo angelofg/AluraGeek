@@ -51,8 +51,8 @@ const render = async () => {
     }
 };
 
-form.addEventListener("submit", (event) => {
-    event.preventDefault();
+form.addEventListener("submit", () => {
+    //event.preventDefault();
 
     const nombre = document.querySelector("[data-name]").value;
     const precio = document.querySelector("[data-price]").value;
