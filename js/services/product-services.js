@@ -1,5 +1,4 @@
-//const apiUrl = "http://localhost:3000/products";
-const apiUrl = "https://vercel.com/angelo-familias-projects/alura-geek/stores/products";
+const apiUrl = "http://localhost:3000/products";
 
 const listaProducto = () => {
     return fetch(apiUrl)
