@@ -1,4 +1,6 @@
 //const apiUrl = "http://localhost:3000/products";
+
+//Api Rest en Vercel
 const apiUrl = "https://alura-geek-api-three.vercel.app/products";
 
 const listaProducto = () => {
