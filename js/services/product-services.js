@@ -1,5 +1,5 @@
 //const apiUrl = "http://localhost:3000/products";
-const apiUrl = "https://alura-geek-plum.vercel.app/database/db.JSON";
+const apiUrl = "https://fake-store-api-2no73ornoa-uc.a.run.app/api/products";
 
 const listaProducto = () => {
     return fetch(apiUrl)
