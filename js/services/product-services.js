@@ -1,5 +1,5 @@
 //const apiUrl = "http://localhost:3000/products";
-const apiUrl = "https://fake-store-api-2no73ornoa-uc.a.run.app/api/products/all";
+const apiUrl = "https://vercel.com/angelo-familias-projects/alura-geek/stores/edge-config/ecfg_phkphgad33913tvsslegg7wsqv3v/items#item=products";
 
 const listaProducto = () => {
     return fetch(apiUrl)
